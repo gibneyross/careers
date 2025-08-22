@@ -1,0 +1,83 @@
+.headerBar {
+	width: 100%;
+	box-sizing: border-box;
+	background-color: #228B22; /*green */
+	color: white;
+	display: flex;
+	align-items: center;
+	padding: 0.9rem 1.25rem;
+	gap: 0.75rem;
+}
+
+.logoText {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+
+.rightSide {
+	margin-left: auto;/* push all nav/account to the right */
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.navLinks {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.link {
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+	padding: 0.3rem 0.6rem;
+	border-radius: 0.5rem;
+	transition: background-color .15s ease;
+}
+.link:hover {
+	background-color: #e5e7eb;/*grey*/
+	color: #228B22; /*green */
+}
+.walletArea {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.walletBtn {
+	background: white;
+	color: #0b5f0b;
+	border: none;
+	border-radius: 999px;
+	padding: 0.45rem 0.9rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background-color .15s ease;
+}
+.walletBtn:hover {
+	background-color: #e5e7eb;/* grey on hover */
+}
+
+.addrChip {
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.12);
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	padding: 0.15rem 0.45rem;
+	border-radius: 999px;
+	font-size: 0.8rem;
+	line-height: 1;
+}
+.connectedText {
+	font-size: 0.85rem;
+	opacity: 0.9;
+}
+.brandGroup {
+	display: flex;
+	  align-items: center;
+	gap: 0.5rem;
+}
+/* size and style the flag */
+.flagIcon {
+	width: 100px;
+	height: 75px;
+	object-fit: cover;
+}
